@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ControllerMasina.cpp" />
     <ClCompile Include="structuri_de_date_generice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ControllerMasina.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Masina.h" />
     <ClInclude Include="Nod.h" />
