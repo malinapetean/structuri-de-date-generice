@@ -1,0 +1,7 @@
+1 2005 Dacia Rosu 5
+2 2000 Audi Gri 5
+3 1990 BMW Gri 4
+4 2010 Aixam Alb 2
+5 2011 Ford Alb 5
+6 2004 Volswagen Negru 7
+7 2020 Tesla Alb 2
