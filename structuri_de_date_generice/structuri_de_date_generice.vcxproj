@@ -139,15 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ControllerMasina.cpp" />
     <ClCompile Include="structuri_de_date_generice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Coada.h" />
     <ClInclude Include="ControllerMasina.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Masina.h" />
     <ClInclude Include="Nod.h" />
     <ClInclude Include="Persoana.h" />
+    <ClInclude Include="Stiva.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="masini.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

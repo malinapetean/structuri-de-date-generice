@@ -87,5 +87,15 @@ public:
 		return head;
 	}
 
-
+	int size()
+	{
+		int ct = 0;
+		Nod<T>* aux = head;
+		while (aux != NULL)
+		{
+			aux = aux->next;
+			ct++;
+		}
+		return ct;
+	}
 };
