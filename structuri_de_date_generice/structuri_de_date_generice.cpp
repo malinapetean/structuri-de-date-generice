@@ -1,12 +1,12 @@
-
-#include "ControllerMasina.h"
-
+//#include "ControllerMasina.h"
+#include"Stiva.h"
 
 int main()
 {
    
-	Lista<Masina>lista;
-	ControllerMasina masini;
+	/*Lista<Masina>lista;
+	ControllerMasina masini;*/
+	Stiva<Masina> stiva;
 
 	Masina m(1,2005, "Dacia", "Rosu", 5);
 	Masina m2(2,2000, "Audi", "Gri", 5);
@@ -21,8 +21,8 @@ int main()
 	lista.addPoz(m5, 2);*/
 	//lista.set(m,1);	
 	//lista.removePoz(1);
-	Nod<Masina>* aux = lista.iterator();
-	/*
+	/*Nod<Masina>* aux = lista.iterator();
+	
 	while (aux != NULL) {
 
 		cout<<aux->data.afisare();
@@ -30,13 +30,21 @@ int main()
 		aux = aux->next;
 	}*/
 	//cout<<lista.get(2)->data.afisare();
-	
+	/*
 	masini.desplay();
-	/*cout << masini.existenta(m6);
-	cout << masini.addMasina(m6);*/
+	cout << masini.existenta(m6);
+	cout << masini.addMasina(m6);
 	cout << masini.getPosition(m6);
 	masini.updateMasina(m6);
 	masini.desplay();
+	masini.load();
+	cout << lista.size();*/
+
+	stiva.push(m);
+	stiva.push(m2);
+	stiva.push(m3);
+	stiva.pop();
+	cout << stiva.peek().afisare();
 }
 
 

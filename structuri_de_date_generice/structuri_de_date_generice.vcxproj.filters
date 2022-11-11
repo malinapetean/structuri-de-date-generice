@@ -18,9 +18,6 @@
     <ClCompile Include="structuri_de_date_generice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ControllerMasina.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Persoana.h">
@@ -38,5 +35,16 @@
     <ClInclude Include="ControllerMasina.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Stiva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="masini.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
